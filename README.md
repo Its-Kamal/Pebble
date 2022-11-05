@@ -1,2 +1,2 @@
 # Pebble
-Live at https://iamkamalsingh.github.io/Pebble/
+Live at https://its-kamal.github.io/Pebble/
