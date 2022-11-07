@@ -724,7 +724,7 @@ b{
     cursor: pointer;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
     #footer-bar{
         top:100vh;
     }
