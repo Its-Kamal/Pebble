@@ -724,18 +724,18 @@ b{
     cursor: pointer;
 }
 
-.loader {
-    position: absolute;
-    width:100% ;
-    height: 100%;
-    text-align: center;
-    vertical-align: middle;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    padding: 150px;
-    box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.2);
-    z-index: 20;
+@media screen and (min-width: 1440px) {
+    #signup{
+        top: 100vh;
+    }
+    #signup label[for="name"]{
+        top: 30vh;
+    }
+    #signup label[for="phone"]{
+        top: 38vh;
+    }
+    #check-privacy-text{
+        left: 1.8vw;
+        margin-top:2vh;
+    }
   }
