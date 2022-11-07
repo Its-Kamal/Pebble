@@ -49,3 +49,14 @@ function check_the_box(){
         n-=1;
     }
 }
+
+var mobile = window.matchMedia("(max-width: 390px)");
+var myinterval= setInterval(() => {
+    function mediaphone(mobile) {
+        if (mobile.matches) { // If media query matches
+          document.write("This website can only be viewed in a Desktop");
+          clearInterval(myinterval);
+        }
+      }
+    mediaphone(mobile)
+}, 100);
